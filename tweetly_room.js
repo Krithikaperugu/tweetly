@@ -24,7 +24,7 @@ firebase.initializeApp(firebaseConfig);
       alert("Room Created!");
       document.getElementById("room_name").value = "";
       localStorage.setItem("Roomname" , room_name);
-      window.location = "page.html";
+      window.location = "tweetly_page.html";
     }
 
     function logout() {
